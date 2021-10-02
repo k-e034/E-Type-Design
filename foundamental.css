@@ -6,7 +6,7 @@
 
 i{
 font-family:gdi;
-font-size:20px;
+font-size:30px;
 font-weight:normal;
 margin: auto;
 font-feature-settings: "smcp" 0, "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
@@ -16,7 +16,7 @@ font-feature-settings: "smcp" 0, "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
 
 p{
 font-family:goodday;
-font-size:20px;
+font-size:30px;
 font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
 -moz-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
 -webkit-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
@@ -24,7 +24,7 @@ font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
 
 h1{
 font-family:goodday;
-font-size:30px;
+font-size:40px;
 font-weight:normal;
 margin: auto;
 font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
@@ -34,7 +34,7 @@ font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
 
 h2{
 font-family:goodday;
-font-size:30px;
+font-size:40px;
 font-weight:normal;
 margin: auto;
 font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
@@ -44,7 +44,7 @@ font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
 
 .ltn-ja{
 font-family:goodday, heb, plx;
-font-size:20px;
+font-size:30px;
 font-weight:normal;
 font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1, "halt" 1;
 -moz-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1, "halt" 1;

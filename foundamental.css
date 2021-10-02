@@ -2,12 +2,6 @@
 @font-face{font-family:gdi; src:url(https://k-e034.github.io/ETD-GoodDaySans-RegularSlanted.woff2) format("woff2");}
 @font-face{font-family:heb; src:url(https://k-e034.github.io/ETD-Hebereke-S-Light.woff2) format("woff2");}
 @font-face{font-family:plx; src:url(https://k-e034.github.io/IBMPlexSansJP-Text.woff2) format("woff2");}
-
-header{
-position:relative;
-height:20vh;
-background:url(https://k-e034.github.io/E-Type-Design/ETD-logo.svg) center / cover;
-}
  
 a:link{font-family:goodday;font-weight:normal;color:black;}
 a:visited{font-family:gdi;font-weight:normal;color:black;}

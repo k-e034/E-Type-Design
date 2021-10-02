@@ -12,8 +12,8 @@ h1{
 font-family:goodday;
 font-size:30px;
 font-weight:normal;
-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
--moz-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
--webkit-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
+font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
+-moz-font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
+-webkit-font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
 }
  

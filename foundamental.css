@@ -1,0 +1,8 @@
+@font-face{font-family:goodday; src:url(https://k-e034.github.io/ETD-GoodDaySans-Regular.woff2) format("woff2");}
+
+p{
+font-family:goodday;
+font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1;
+-moz-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1;
+-webkit-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1;
+}

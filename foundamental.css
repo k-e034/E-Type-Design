@@ -60,4 +60,14 @@ font-weight:normal;
 font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1, "halt" 1;
 -moz-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1, "halt" 1;
 -webkit-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1, "halt" 1;}
+
+.center{
+font-family:goodday;
+font-size:30px;
+justify-content:center;
+font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
+-moz-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
+-webkit-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
+}
+
  

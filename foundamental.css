@@ -2,7 +2,17 @@
 
 p{
 font-family:goodday;
-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1;
--moz-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1;
--webkit-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1;
+font-size:20px;
+font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
+-moz-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
+-webkit-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
 }
+
+h1{
+font-family:goodday;
+font-size:30px;
+font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
+-moz-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
+-webkit-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
+}
+ 

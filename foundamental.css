@@ -1,5 +1,16 @@
 @font-face{font-family:goodday; src:url(https://k-e034.github.io/ETD-GoodDaySans-Regular.woff2) format("woff2");}
 
+
+title{
+font-family:goodday;
+font-size:30px;
+font-weight:normal;
+margin: auto;
+font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
+-moz-font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
+-webkit-font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
+}
+
 p{
 font-family:goodday;
 font-size:20px;

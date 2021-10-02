@@ -42,6 +42,17 @@ font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
 -webkit-font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
 }
 
+
+h3{
+font-family:goodday;
+font-size:40px;
+font-weight:normal;
+margin: auto;
+font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
+-moz-font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
+-webkit-font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
+}
+
 .ltn-ja{
 font-family:goodday, heb, plx;
 font-size:30px;

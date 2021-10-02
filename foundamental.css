@@ -11,6 +11,7 @@ font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
 h1{
 font-family:goodday;
 font-size:30px;
+font-weight:normal;
 font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
 -moz-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
 -webkit-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;

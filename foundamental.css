@@ -1,14 +1,17 @@
 @font-face{font-family:goodday; src:url(https://k-e034.github.io/ETD-GoodDaySans-Regular.woff2) format("woff2");}
+@font-face{font-family:gdi; src:url(https://k-e034.github.io/ETD-GoodDaySans-RegularSlanted.woff2) format("woff2");}
+@font-face{font-family:heb; src:url(https://k-e034.github.io/ETD-Hebereke-S-Light.woff2) format("woff2");}
+@font-face{font-family:plx; src:url(https://k-e034.github.io/IBMPlexSansJP-Text.woff2) format("woff2");}
 
 
-title{
-font-family:goodday;
-font-size:30px;
+i{
+font-family:gdi;
+font-size:20px;
 font-weight:normal;
 margin: auto;
-font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
--moz-font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
--webkit-font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
+font-feature-settings: "smcp" 0, "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
+-moz-font-feature-settings: "smcp" 0, "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
+-webkit-font-feature-settings: "smcp" 0, "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
 }
 
 p{
@@ -28,4 +31,12 @@ font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
 -moz-font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
 -webkit-font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
 }
+
+.ltn-ja{
+font-family:goodday, heb, plx;
+font-size:20px;
+font-weight:normal;
+font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1, "halt" 1;
+-moz-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1, "halt" 1;
+-webkit-font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1, "halt" 1;}
  

@@ -4,6 +4,11 @@
 @font-face{font-family:plx; src:url(https://k-e034.github.io/IBMPlexSansJP-Text.woff2) format("woff2");}
 
 
+a:link{font-family:goodday;font-weight:normal;color:black;}
+a:visited{font-family:gdi;font-weight:normal;color:black;}
+a:hover{font-family:gdi;font-weight:normal;color:red;}
+a:active{font-family:goodday;font-weight:normal;color:red;}
+
 i{
 font-family:gdi;
 font-size:30px;

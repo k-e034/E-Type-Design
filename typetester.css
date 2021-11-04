@@ -1,0 +1,57 @@
+// デモ用書体の読み込み
+@font-face {
+  font-family: "goodday";
+  src: url("https://k-e034.github.io/ETD-GoodDaySans-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "gdi";
+  src: url("https://k-e034.github.io/ETD-GoodDaySans-Slanted.woff2") format("woff2");
+}
+@font-face {
+  font-family: "gdv";
+  src: url("https://k-e034.github.io/ETD-GoodDaySans-Variable.ttf") format("truetypevariable");
+}
+
+// スタイリング
+.typeface {
+  margin-top: 30px;
+  margin-left: 30px;
+  &__features{
+    margin-top: 20px;
+  }
+  &__fontsize{
+    display: block;
+    margin-top: 20px;
+  }
+  &__area{
+    appearance: none;
+    border: none;
+    background-color: #eee;
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    height: 300px;
+    font-size: 36px;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+#dmsans{
+  font-family: "DM Sans", sans-serif;
+  textarea{
+    font-family: "DM Sans", sans-serif;
+  }
+}
+#goodday{
+  font-family: "goodday", sans-serif;
+  textarea{
+    font-family: 'goodday', sans-serif;
+  }
+}
+#gdi{
+  font-family: "gdi", sans-serif;
+  textarea{
+    font-family: 'gdi', sans-serif;
+  }
+}

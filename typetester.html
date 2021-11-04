@@ -1,0 +1,73 @@
+<!-- デモ用フォントの読み込み -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+<!-- ドロップダウンでフォントを選ぶ場合、スタイル切り替えの際にフォールバックフォントが一瞬表示されることがあるためプリロードしておく -->
+<link rel="preload" href="path" as="font" type="font/woff2" crossorigin />
+
+<!-- font-weight, font-style / ドロップダウンでスタイルを選択する場合 -->
+<div class="typeface" id='dmsans'>
+  <select name="weight" class="typeface__select">
+    <!--   weight-styleをvalueに記述する -->
+    <option value="400-normal" selected>Regular</option>
+    <option value="400-italic">Regular Italic</option>
+    <option value="500-normal">Medium</option>
+    <option value="500-italic">Medium Italic</option>
+    <option value="700-normal">Bold</option>
+    <option value="700-italic">Bold Italic</option>
+  </select>
+  <div class="typeface__features">
+    <!--   適用できるOpenType機能をvalueに入れたチェックボックスを作る -->
+    <label><input value='kern' class="typeface__check" type="checkbox" checked>kern</label>
+    <label><input value='liga' class="typeface__check" type="checkbox" checked>liga</label>
+    <label><input value='ss01' class="typeface__check" type="checkbox">ss01</label>
+    <label><input value='ss02' class="typeface__check" type="checkbox">ss02</label>
+    <label><input value='ss03' class="typeface__check" type="checkbox">ss03</label>
+    <label><input value='ss04' class="typeface__check" type="checkbox">ss04</label>
+  </div>
+  <!--     フォントサイズの調整スライダー -->
+  <input class="typeface__fontsize" type="range" name="size" min="4" max="200" value="36">
+  <textarea class="typeface__area">Test Typeface with font-weight and font-style</textarea>
+</div>
+<!-- font-familyをドロップダウンで選択する場合 -->
+<div class="typeface" id='koga'>
+  <select name="weight" class="typeface__select">
+    <!-- font-familyをvalueに記述する -->
+    <option value="koga-sans-book" selected>Book</option>
+    <option value="koga-sans-medium">Medium</option>
+    <option value="koga-sans-semibold">Semi Bold</option>
+    <option value="koga-sans-bold">Bold</option>
+  </select>
+  <div class="typeface__features">
+    <!--   適用できるOpenType機能をvalueに入れたチェックボックスを作る -->
+    <label><input value='kern' class="typeface__check" type="checkbox" checked>kern</label>
+    <label><input value='onum' class="typeface__check" type="checkbox">onum</label>
+    <label><input value='smcp' class="typeface__check" type="checkbox">smcp</label>
+    <label><input value='ss01' class="typeface__check" type="checkbox">ss01</label>
+    <label><input value='ss02' class="typeface__check" type="checkbox">ss02</label>
+    <label><input value='ss03' class="typeface__check" type="checkbox">ss03</label>
+    <label><input value='ss04' class="typeface__check" type="checkbox">ss04</label>
+  </div>
+  <!--     フォントサイズの調整スライダー -->
+  <input class="typeface__fontsize" type="range" name="size" min="4" max="200" value="36">
+  <textarea class="typeface__area">Test Typeface with font-family</textarea>
+</div>
+
+<!-- バリアブルフォントをスライダーで調整する場合 -->
+<div class="typeface" id='modern'>
+  <input class="typeface__slider" type="range" name="weight" min="100" max="900" value="400">
+  <div class="typeface__features">
+    <!--   適用できるOpenType機能をvalueに入れたチェックボックスを作る -->
+    <label><input value='kern' class="typeface__check" type="checkbox" checked>kern</label>
+    <label><input value='onum' class="typeface__check" type="checkbox">onum</label>
+    <label><input value='dlig' class="typeface__check" type="checkbox">dlig</label>
+    <label><input value='ss01' class="typeface__check" type="checkbox">ss01</label>
+    <label><input value='ss02' class="typeface__check" type="checkbox">ss02</label>
+    <label><input value='ss03' class="typeface__check" type="checkbox">ss03</label>
+    <label><input value='ss04' class="typeface__check" type="checkbox">ss04</label>
+  </div>
+  <!--     フォントサイズの調整スライダー -->
+  <input class="typeface__fontsize" type="range" name="size" min="4" max="200" value="36">
+  <textarea class="typeface__area">Test Typeface with font-variation-settings</textarea>
+</div>

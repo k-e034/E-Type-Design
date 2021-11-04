@@ -24,7 +24,7 @@ $('#dmsans .typeface__check').click(function() {
 // font-familyでスタイルを変更
 $('#goodday .typeface__select').change(function() {
   var style = $(this).find('option:selected').val();
-  $('#koga textarea').css('font-family', style)
+  $('#goodday textarea').css('font-family', style)
 });
 // #gooddayのOpenType機能を変更
 $('#goodday .typeface__check').click(function() {

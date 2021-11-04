@@ -1,17 +1,17 @@
-// ƒtƒHƒ“ƒgƒTƒCƒY•ÏX
+// ãƒ•ã‚©ãƒ³ãƒˆã‚µã‚¤ã‚ºå¤‰æ›´
 $('.typeface__fontsize').on('input', function() {
   const fontSize = $(this).val();
   console.log(fontSize);
   $(this).nextAll('textarea').css('font-size', fontSize + 'px') 
-// ªêŠ‚É‚æ‚Á‚Ätextarea‚É“–‚½‚é‚æ‚¤‚É•ÏX‚·‚é
+// â†‘å ´æ‰€ã«ã‚ˆã£ã¦textareaã«å½“ãŸã‚‹ã‚ˆã†ã«å¤‰æ›´ã™ã‚‹
 });
-// font-weight‚Æfont-style‚ÅƒXƒ^ƒCƒ‹‚ğ•ÏX
+// font-weightã¨font-styleã§ã‚¹ã‚¿ã‚¤ãƒ«ã‚’å¤‰æ›´
 $('#dmsans .typeface__select').change(function() {
   var property = $(this).find('option:selected').val();
   var weightStyle = property.split('-');
   $('#dmsans textarea').css({'font-weight':weightStyle[0], 'font-style':weightStyle[1]})
 });
-// --dmsans‚ÌOpenType‹@”\‚ğ•ÏX
+// --dmsansã®OpenTypeæ©Ÿèƒ½ã‚’å¤‰æ›´
 $('#dmsans .typeface__check').click(function() {
   var checked = $('#dmsans .typeface__check:checked').map(function() {
     return $(this).val();
@@ -21,25 +21,25 @@ $('#dmsans .typeface__check').click(function() {
   $('#dmsans textarea').css('font-feature-settings', features)
 });
 
-// font-family‚ÅƒXƒ^ƒCƒ‹‚ğ•ÏX
-$('#koga .typeface__select').change(function() {
+// font-familyã§ã‚¹ã‚¿ã‚¤ãƒ«ã‚’å¤‰æ›´
+$('#goodday .typeface__select').change(function() {
   var style = $(this).find('option:selected').val();
   $('#koga textarea').css('font-family', style)
 });
-// #koga‚ÌOpenType‹@”\‚ğ•ÏX
-$('#koga .typeface__check').click(function() {
-  var checked = $('#koga .typeface__check:checked').map(function() {
+// #gooddayã®OpenTypeæ©Ÿèƒ½ã‚’å¤‰æ›´
+$('#goodday .typeface__check').click(function() {
+  var checked = $('#goodday .typeface__check:checked').map(function() {
     return $(this).val();
   }).get();
   features = checked.join('\', \'');
   features = '\'' + features + '\'';
-  $('#koga textarea').css('font-feature-settings', features)
+  $('#goodday textarea').css('font-feature-settings', features)
 });
 
-// ƒXƒ‰ƒCƒ_[‚ÅƒoƒŠƒAƒuƒ‹ƒtƒHƒ“ƒg‚ğ’²®
+// ã‚¹ãƒ©ã‚¤ãƒ€ãƒ¼ã§ãƒãƒªã‚¢ãƒ–ãƒ«ãƒ•ã‚©ãƒ³ãƒˆã‚’èª¿æ•´
 $('#modern .typeface__slider').on('input', function() {
   const weight = $(this).val();
-// •¡”²‚Ìê‡, const italic = $(#italic).val();‚Ì‚æ‚¤‚É‚»‚ê‚¼‚ê’è‹`‚·‚é
+// è¤‡æ•°è»¸ã®å ´åˆ, const italic = $(#italic).val();ã®ã‚ˆã†ã«ãã‚Œãã‚Œå®šç¾©ã™ã‚‹
   $('#modern textarea').css('font-variation-settings', `'wght' ${weight}`)
-// •¡”²‚Ìê‡A$('#modern textarea').css('font-variation-settings', `'wght' ${weight}, 'ital' ${italic}`) ‚Ì‚æ‚¤‚É‘‚­
+// è¤‡æ•°è»¸ã®å ´åˆã€$('#modern textarea').css('font-variation-settings', `'wght' ${weight}, 'ital' ${italic}`) ã®ã‚ˆã†ã«æ›¸ã
 });

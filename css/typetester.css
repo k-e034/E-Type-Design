@@ -37,21 +37,15 @@
     }
   }
 }
-#dmsans{
-  font-family: "DM Sans", sans-serif;
-  textarea{
-    font-family: "DM Sans", sans-serif;
-  }
-}
 #goodday{
   font-family: "goodday", sans-serif;
   textarea{
-    font-family: 'goodday', sans-serif;
+    font-family: "goodday", sans-serif;
   }
 }
 #gdi{
   font-family: "gdi", sans-serif;
   textarea{
-    font-family: 'gdi', sans-serif;
+    font-family: "gdi", sans-serif;
   }
 }

@@ -29,7 +29,7 @@ font-feature-settings: "liga" 1, "dlig" 1, "ss01" 1, "tnum" 1;
 h1{
 font-family:gdi;
 color:red;
-font-size:40px;
+font-size:60px;
 font-weight:normal;
 margin: auto;
 font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
@@ -40,7 +40,7 @@ font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
 h2{
 font-family:gdi;
 color:red;
-font-size:40px;
+font-size:60px;
 font-weight:normal;
 margin: auto;
 font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
@@ -52,7 +52,7 @@ font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;
 h3{
 font-family:gdi;
 color:red;
-font-size:40px;
+font-size:60px;
 font-weight:normal;
 margin: auto;
 font-feature-settings: "smcp" 1, "liga" 0, "dlig" 0, "ss01" 0, "tnum" 1;

@@ -28,14 +28,13 @@
     margin-top: 40px;
   }
   &_area{
-    appearance: none;
-    border: none;
-    background-color: #eee;
-    margin-top: 20px;
-    padding: 10px;
-    width: 80%;
-    height: 500px;
-    font-size: 36px;
+  width: 80%;
+  border: 2px solid black;
+  align-items: center;
+  justify-content: center;
+  font-family: "gooddaysans-regular";
+  font-size: 20px;
+  transition: ease-in-out;
     &:focus {
       outline: none;
     }

@@ -22,9 +22,10 @@
   }
   &_fontsize{
     display: block;
-    margin-top: 40px;
+    margin-top: 20px;
   }
   &_area{
+  display:flex;
   width: 80%;
   border: 2px solid black;
   align-items: center;

@@ -1,7 +1,7 @@
 $('.typeface_fontsize').on('input', function() {
   const fontSize = $(this).val();
   console.log(fontSize);
-  $(this).nextAll('.typeface_textarea').css('font-size', fontSize + 'px')
+  $(this).nextAll('.typeface_area').css('font-size', fontSize + 'px')
 });
 $('#goodday .typeface_select').change(function() {
   var style = $(this).find('option:selected').val();

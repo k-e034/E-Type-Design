@@ -12,9 +12,6 @@
   src: url("https://k-e034.github.io/ETD-GoodDaySans-Variable.ttf") format("truetypevariable");
 }
 
-*{
- font-family: "gooddaysans-regular"
-}
 
 // スタイリング
 .typeface {
@@ -32,12 +29,9 @@
   border: 2px solid black;
   align-items: center;
   justify-content: center;
-  font-family: "gooddaysans-regular";
+  font-family: "gooddaysans-regular", sans-serif;
   font-size: 20px;
   transition: ease-in-out;
-    &:focus {
-      outline: none;
-    }
   }
 }
 #goodday{

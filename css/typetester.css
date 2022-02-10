@@ -1,10 +1,10 @@
 // デモ用書体の読み込み
 @font-face {
-  font-family: "goodday";
+  font-family: "gooddaysans-regular";
   src: url("https://k-e034.github.io/ETD-GoodDaySans-Regular.woff2") format("woff2");
 }
 @font-face {
-  font-family: "gdi";
+  font-family: "gooddaysans-slanted";
   src: url("https://k-e034.github.io/ETD-GoodDaySans-Slanted.woff2") format("woff2");
 }
 @font-face {
@@ -38,14 +38,14 @@
   }
 }
 #goodday{
-  font-family: "goodday", sans-serif;
+  font-family: "gooddaysans-regular", sans-serif;
   textarea{
-    font-family: "goodday", sans-serif;
+    font-family: "gooddaysans-regular", sans-serif;
   }
 }
 #gdi{
-  font-family: "gdi", sans-serif;
+  font-family: "gooddaysans-slanted", sans-serif;
   textarea{
-    font-family: "gdi", sans-serif;
+    font-family: "gooddaysans-slanted", sans-serif;
   }
 }

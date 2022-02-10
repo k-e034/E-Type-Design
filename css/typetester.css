@@ -37,13 +37,13 @@
     }
   }
 }
-#goodday{
+#goodday-regular{
   font-family: "gooddaysans-regular", sans-serif;
   textarea{
     font-family: "gooddaysans-regular", sans-serif;
   }
 }
-#gdi{
+#gooddaysans-slanted{
   font-family: "gooddaysans-slanted", sans-serif;
   textarea{
     font-family: "gooddaysans-slanted", sans-serif;

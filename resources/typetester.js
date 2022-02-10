@@ -4,10 +4,8 @@ $('.typeface_fontsize').on('input', function() {
   $(this).nextAll('textarea').css('font-size', fontSize + 'px')
 });
 $('#goodday .typeface_select').change(function() {
-  var property = $(this).find('option:selected').val();
-  var weightStyle = property.split('-');
-  $('#goodday textarea').css({'font-weight':weightStyle[0], 'font-style':weightStyle[1]})
-});
+  var style = $(this).find('option:selected').val();
+  $('#goodday textarea').css({'font-family',style)});
 $('#goodday .typeface_check').click(function() {
   var checked = $('#goodday .typeface_check:checked').map(function() {
     return $(this).val();

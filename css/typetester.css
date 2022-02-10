@@ -15,6 +15,7 @@
 
 // スタイリング
 .typeface {
+  font-family: "gooddaysans-regular";
   margin-top: 30px;
   margin-left: 30px;
   &_features{

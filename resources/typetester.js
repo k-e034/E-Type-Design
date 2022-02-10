@@ -5,7 +5,7 @@ $('.typeface_fontsize').on('input', function() {
 });
 $('#goodday .typeface_select').change(function() {
   var style = $(this).find('option:selected').val();
-  $('#goodday textarea').css({'font-family',style)});
+  $('#goodday textarea').css('font-family',style)});
 $('#goodday .typeface_check').click(function() {
   var checked = $('#goodday .typeface_check:checked').map(function() {
     return $(this).val();

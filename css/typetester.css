@@ -21,6 +21,9 @@
   &_features{
     margin-top: 20px;
   }
+  &_check{
+    fontfamily: "gooddaysans-regular",sans-serif;
+  }
   &_fontsize{
     display: block;
     margin-top: 20px;

@@ -3,7 +3,6 @@ $('.typeface_fontsize').on('input', function() {
   console.log(fontSize);
   $(this).nextAll('textarea').css('font-size', fontSize + 'px')
 });
-// font-weightとfont-styleでスタイルを変更
 $('#goodday .typeface_select').change(function() {
   var property = $(this).find('option:selected').val();
   var weightStyle = property.split('-');

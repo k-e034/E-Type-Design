@@ -40,14 +40,14 @@
   border: 2px solid black;
   align-items: center;
   justify-content: center;
-  font-family: "gooddaysans-regular", sans-serif;
+  font-family: gooddaysans-regular, sans-serif;
   font-size: 20px;
   transition: ease-in-out;
   }
 }
 #goodday{
-  font-family: "gooddaysans-regular", sans-serif;
+  font-family: gooddaysans-regular, sans-serif;
   textarea{
-    font-family: "gooddaysans-regular", sans-serif;
+    font-family: gooddaysans-regular, sans-serif;
   }
 }

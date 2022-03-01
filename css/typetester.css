@@ -1,14 +1,14 @@
 // デモ用書体の読み込み
 @font-face {
-  font-family: "gooddaysans-regular";
+  font-family: gooddaysans-regular;
   src: url("https://k-e034.github.io/ETD-GoodDaySans-Regular.woff2") format("woff2");
 }
 @font-face {
-  font-family: "gooddaysans-slanted";
+  font-family: gooddaysans-slanted;
   src: url("https://k-e034.github.io/ETD-GoodDaySans-Slanted.woff2") format("woff2");
 }
 @font-face {
-  font-family: "gdv";
+  font-family: gdv;
   src: url("https://k-e034.github.io/ETD-GoodDaySans-Regular-VF.ttf") format("truetypevariable");
 }
 

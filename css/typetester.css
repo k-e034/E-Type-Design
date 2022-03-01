@@ -1,16 +1,7 @@
 // デモ用書体の読み込み
-@font-face {
-  font-family:gsr;
-  src: url("https://k-e034.github.io/ETD-GoodDaySans-Regular.woff2") format("woff2");
-}
-@font-face {
-  font-family:gss;
-  src: url("https://k-e034.github.io/ETD-GoodDaySans-Slanted.woff2") format("woff2");
-}
-@font-face {
-  font-family: gdv;
-  src: url("https://k-e034.github.io/ETD-GoodDaySans-Regular-VF.ttf") format("truetypevariable");
-}
+@font-face {font-family:gsr;src:url("https://k-e034.github.io/ETD-GoodDaySans-Regular.woff2") format("woff2");}
+@font-face {font-family:gss;src:url("https://k-e034.github.io/ETD-GoodDaySans-Slanted.woff2") format("woff2");}
+@font-face {font-family:gdv;src:url("https://k-e034.github.io/ETD-GoodDaySans-Regular-VF.ttf") format("truetypevariable");}
 
 
 // スタイリング

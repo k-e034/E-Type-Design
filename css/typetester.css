@@ -14,15 +14,21 @@
 
 
 // スタイリング
+.display {
+  font-family: gooddaysans-regular;
+  font-size:20px;
+  font-feature-settings: "tnum" 1;
+}
+
 .typeface {
-  font-family: "gooddaysans-regular";
+  font-family: gooddaysans-regular;
   margin-top: 30px;
   margin-left: 30px;
   &_features{
     margin-top: 20px;
   }
   &_check{
-    fontfamily: "gooddaysans-regular",sans-serif;
+    fontfamily: gooddaysans-regular,sans-serif;
   }
   &_fontsize{
     display: block;

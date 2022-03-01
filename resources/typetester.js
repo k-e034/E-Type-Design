@@ -1,6 +1,6 @@
 $('.typeface_fontsize').on('input', function() {
   var fontSize = $(this).val();
-  $('.typeface_area').css('font-size', fontSize + 'px')
+  $('.text').css('font-size', fontSize + 'px')
   $('.display').html(fontSize + 'px');
 });
 $('#goodday .typeface_select').change(function() {

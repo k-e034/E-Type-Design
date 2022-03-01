@@ -1,10 +1,10 @@
 // デモ用書体の読み込み
 @font-face {
-  font-family: gooddaysans-regular;
+  font-family:gsr;
   src: url("https://k-e034.github.io/ETD-GoodDaySans-Regular.woff2") format("woff2");
 }
 @font-face {
-  font-family: gooddaysans-slanted;
+  font-family:gss;
   src: url("https://k-e034.github.io/ETD-GoodDaySans-Slanted.woff2") format("woff2");
 }
 @font-face {
@@ -15,20 +15,20 @@
 
 // スタイリング
 .display {
-  font-family: gooddaysans-regular;
+  font-family: gsr;
   font-size:20px;
   font-feature-settings: "tnum" 1;
 }
 
 .typeface {
-  font-family: gooddaysans-regular;
+  font-family: gsr;
   margin-top: 30px;
   margin-left: 30px;
   &_features{
     margin-top: 20px;
   }
   &_check{
-    fontfamily: gooddaysans-regular,sans-serif;
+    fontfamily: gsr,sans-serif;
   }
   &_fontsize{
     display: block;
@@ -36,7 +36,7 @@
   }
  
 .text {
-  font-family: gooddaysans-regular;
+  font-family: gsr;
   margin-top: 30px;
   margin-left: 30px;
   display:flex;
@@ -44,14 +44,14 @@
   border: 2px solid black;
   align-items: center;
   justify-content: center;
-  font-family: gooddaysans-regular, sans-serif;
+  font-family: gsr, sans-serif;
   font-size: 20px;
   transition: ease-in-out;
   }
 }
 #goodday{
-  font-family: gooddaysans-regular, sans-serif;
+  font-family: gsr, sans-serif;
   textarea{
-    font-family: gooddaysans-regular, sans-serif;
+    font-family: gsr, sans-serif;
   }
 }

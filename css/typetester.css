@@ -15,13 +15,13 @@
   font-family: gsr;
   margin-top: 30px;
   margin-left: 30px;
-  &_features{
+  &__features{
     margin-top: 20px;
   }
-  &_check{
+  &__check{
     fontfamily: gsr,sans-serif;
   }
-  &_fontsize{
+  &__fontsize{
     display: block;
     margin-top: 20px;
   }
